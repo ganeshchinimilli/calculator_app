@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 Widget calcButton(String buttonText, Color buttonColor, void Function()? buttonPressed){
   return Container(
     width:75,
-    height:buttonText=='='?150:70,
+    height:buttonText=='='?151:70,
     padding:const EdgeInsets.all(0),
     child:ElevatedButton(
       onPressed: buttonPressed,
